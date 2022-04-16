@@ -1,0 +1,222 @@
+@media all and (min-width: 320px) {
+  .section-get-a-profession .content-wrapper{
+    width: 100%;
+    padding: 60px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+  .priorities-wrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .profession-now-logo-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  .profession-now-logo-wrapper img{
+    width: 18px;
+    height: 18px;
+  }
+  .profession-now h2{
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .priorities{
+    margin-top: 30px;
+  }
+  .priorities:first-child{
+    margin-top: 0px;
+  }
+  .priorities img{
+    width: 42px;
+    height: 42px;
+  }
+  .priorities .title-priorities{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .priorities p{
+    margin-top: 20px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  }
+  @media all and (min-width: 480px) {
+    .section-get-a-profession .content-wrapper{
+      padding: 60px 30px 20px 30px;
+    }
+    .priorities-wrapper{
+      margin-top: 30px;
+      flex-wrap: nowrap;
+    }
+    .priorities{
+     width: 30%;
+    }
+    .priorities .title-priorities{
+      font-size: 11px;
+      line-height: 15px;
+      text-align: center;
+    }
+    .profession-now-logo-wrapper img{
+      width: 22px;
+      height: 22px;
+    }
+    .profession-now h2{
+      font-size: 19px;
+      margin-left: 20px;
+    }
+    .priorities{
+      margin-top: 30px;
+    }
+    .priorities:first-child{
+      margin-top: 30px;
+    }
+    .priorities p{
+      margin-top: 20px;
+      font-size: 11px;
+      line-height: 16px;
+      text-align: justify;
+    }
+  }
+  @media all and (min-width: 640px) {
+    .profession-now h2{
+      font-size: 22px;
+    }
+    .priorities .title-priorities{
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .priorities p{
+      font-size: 10px;
+      line-height: 13px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .section-get-a-profession .content-wrapper{
+      padding: 60px 100px 20px 100px;
+    }
+    .profession-now h2{
+      font-size: 22px;
+    }
+    .priorities{
+      margin-top: 30px;
+    }
+    .priorities img{
+      width: 52px;
+      height: 52px;
+    }
+    .priorities .title-priorities{
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .priorities p{
+      font-size: 11.5px;
+      line-height: 16px;
+    }
+  }
+  @media all and (min-width: 980px) {
+    .section-get-a-profession .content-wrapper{
+      padding: 60px 100px 20px 100px;
+    }
+    .priorities:first-child{
+      margin-top: 40px;
+    }
+    .profession-now h2{
+      font-size: 38px;
+    }
+    .profession-now-logo-wrapper img{
+      width: 35px;
+      height: 35px;
+    }
+    .priorities{
+      margin-top: 40px;
+    }
+    .priorities img{
+      width: 62px;
+      height: 62px;
+    }
+    .priorities .title-priorities{
+      font-size: 18px;
+      line-height: 22px;
+    }
+    .priorities p{
+      margin-top: 30px;
+      font-size: 14px;
+      line-height: 15px;
+    }
+  }
+  @media all and (min-width: 1024px) {
+    .priorities-wrapper{
+      margin-top: 60px;
+      flex-wrap: nowrap;
+    }
+    .section-get-a-profession .content-wrapper{
+      padding: 110px 150px 20px 150px;
+    }
+    .priorities .title-priorities{
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+  @media all and (min-width: 1280px) {
+    .section-get-a-profession .content-wrapper{
+      padding: 60px 200px 20px 200px;
+    }
+    .priorities{
+      margin-top: 60px;
+    }
+    .priorities:first-child{
+      margin-top: 60px;
+    }
+    .priorities img{
+      width: 72px;
+      height: 72px;
+    }
+    .priorities .title-priorities{
+      font-size: 19px;
+    }
+    .priorities p{
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+  @media all and (min-width: 1600px) {
+    .section-get-a-profession .content-wrapper{
+      padding: 200px 300px 20px 300px;
+    }
+    .profession-now h2{
+      font-size: 40px;
+    }
+    .priorities{
+      margin-top: 80px;
+    }
+    .priorities:first-child{
+      margin-top: 80px;
+    }
+    .priorities img{
+      width: 72px;
+      height: 72px;
+    }
+    .priorities .title-priorities{
+      font-size: 22px;
+    }
+    .priorities p{
+      margin-top: 40px;
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+  @media all and (min-width: 1920px) {
+    .priorities img{
+      width: 92px;
+      height: 92px;
+    }
+    .priorities .title-priorities{
+      font-size: 24px;
+    }
+    .priorities p{
+      line-height: 25px;
+    }
+  }

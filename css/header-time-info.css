@@ -1,0 +1,150 @@
+@media all and (min-width: 320px) {
+  .header-time-info .content-wrapper{
+    width: 100%;
+    padding: 25px 2px 40px 20px;
+    box-sizing: border-box;
+  }
+  .header-title {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .counter {
+    width: 280px;
+    margin-top: 20px;
+  }
+  .list-counter {
+    width: 65px;
+    height: 65px;
+  }
+  .list-counter h3, .pace div h3 {
+    font-size: 17px;
+  }
+  .list-counter p {
+    font-size: 12px;
+  }
+  }
+  @media all and (min-width: 480px) {
+    .header-time-info .content-wrapper{
+      padding: 30px 30px 50px 30px;
+    }
+  }
+  @media all and (min-width: 640px) {
+    .header-time-info .content-wrapper{
+      padding: 60px 20px 60px 20px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .header-time-info .content-wrapper{
+      padding: 70px 100px 70px 100px;
+    }
+    .header-title {
+      font-size: 27px;
+      line-height: 30px;
+    }
+  }
+  @media all and (min-width: 980px) {
+    h1{
+      font-size: 38px;
+    }
+    .header-title {
+      font-size: 38px;
+      line-height: 35px;
+    }
+    .counter {
+      width: 380px;
+      margin-top: 20px;
+    }
+    .list-counter {
+      width: 85px;
+      height: 85px;
+    }
+    .list-counter h3, .pace div h3 {
+      font-size: 25px;
+    }
+    .list-counter p {
+      font-size: 14px;
+    }
+    .header-time-info .content-wrapper{
+      padding: 100px 100px 100px 100px;
+    }
+  }
+  @media all and (min-width: 1024px) {
+    .header-time-info .content-wrapper{
+      padding: 130px 150px 130px 150px;
+    }
+    .header-title {
+      font-size: 45px;
+      line-height: 55px;
+    }
+    .counter {
+      width: 400px;
+    }
+    .list-counter {
+      width: 95px;
+      height: 95px;
+    }
+    .list-counter h3, .pace div h3 {
+      font-size: 30px;
+    }
+    .list-counter p {
+      font-size: 12.5px;
+    }
+  }
+  @media all and (min-width: 1280px) {
+    .counter {
+      margin-top: 40px;
+    }
+    .header-time-info .content-wrapper{
+      padding: 170px 200px 170px 200px;
+    }
+    .list-counter p {
+      font-size: 16px;
+    }
+    .list-counter h3, .pace div h3 {
+      font-size: 36px;
+    }
+    .header-title h1{
+      font-size: 55px;
+      line-height: 90px;
+    }
+  }
+  @media all and (min-width: 1600px) {
+    .header-time-info .content-wrapper{
+      padding: 190px 300px 200px 300px;
+    }
+    .header-title {
+      font-size: 64px;
+      line-height: 85px;
+    }
+    .counter {
+      width: 500px;
+    }
+    .list-counter {
+      width: 100px;
+      height: 100px;
+    }
+    .list-counter h3, .pace div h3 {
+      font-size: 36px;
+    }
+    .list-counter p {
+      font-size: 16px;
+    }
+  }
+  @media all and (min-width: 1920px) {
+    .header-title {
+      font-size: 74px;
+    }
+    .counter {
+      width: 600px;
+    }
+    .list-counter {
+      width: 140px;
+      height: 140px;
+    }
+    .list-counter h3, .pace div h3 {
+      font-size: 46px;
+    }
+    .list-counter p {
+      font-size: 19px;
+    }
+  }

@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.fl-sb{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fl-col-sb{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fl-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fl-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+header {
+  background-image: url(../assets/img/headerBackground.svg);
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-menu {
+  width: calc(100% - 160px);
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.header-list img{
+  display: none;
+}
+.spacer {
+  display: none;
+}
+.header-button a {
+  text-align: center;
+  text-decoration: none;
+  width: 183px;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background: linear-gradient(to right, #C89AFC 0%, #7C6AFA 100%);
+  font-size: 16px;
+  font-family: "Roboto";
+  list-style-type: none;
+  color: white;
+}
+.header-list ul{
+  font-size: 16px;
+  font-family: "Roboto";
+  list-style-type: none;
+  color: white;
+  display: flex;
+}
+.header-list li{
+ margin-right: 56px;
+}
+.header-list li:last-child{
+  margin-right: 0;
+ }
+.content-wrapper{
+  width: 100%;
+  height: auto;
+  max-width: 1920px;
+}
+/*/////////////////////////////////////////////////////////////////*/
+.header-time-info .content-wrapper{
+  padding: 200px 0px 216px 0px;
+  margin: 0 auto;
+}
+.header-title {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Roboto";
+  line-height: 89px;
+}
+.counter {
+  width: 480px;
+  margin-top: 50px;
+}
+.list-counter {
+  background-color: #121212;
+  width: 108px;
+  height: 112px;
+}
+.list-counter h3, .pace div h3 {
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 36px;
+  color: white;
+}
+.list-counter p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #717171;
+  font-family: "Roboto";
+}
+.header-course-info{
+  background-color: #121212;
+  height: auto;
+}
+.header-course-info .content-wrapper{
+  padding: 36px 0px 28px 0px;
+}
+/*/////////////////////////////////////////////////////////////////*/
+.wrapper-content-top-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-header-top-section a{
+  text-decoration: none;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+progress{
+  width: 714px;
+}
+.student-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 251px;
+}
+.student-information div, .earned-by-students div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.student-information div p, .earned-by-students div p, .fast-start p, .priorities p, .training-program p, .teachers div p, .footer-section p{
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 25px;
+}
+.student-information div span, .earned-by-students div span, .button-header-top-section a{
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+.earned-by-students{
+  width: 714px;
+  height: 67;
+}
+main, footer{
+  background-color: black;
+  height: auto;
+}
+/*/////////////////////////////////////////////////////////////////*/
+h2{
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Roboto";
+  color: white;
+}
+.footer-section{
+  text-align: center;
+}
+.footer-section p{
+  margin-top: 30px;
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 25px;
+}
+.footer-us .content-wrapper{
+  padding: 100px 0px 100px 0px;
+}
+.subscription{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #414141;
+  width: 500px;
+  border-radius: 50px;
+  margin-top: 60px;
+}
+input{
+  width: 310px;
+  background-color: #414141;
+  border: none;
+  color: white;
+}
+.wrapper-icon{
+  margin:  0 auto;
+  width: 320px;
+  margin-top: 40px;
+}
+.top-icon{
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 70px;
+  width: 50px;
+  height: 50px;
+}
+/*/////////////////////////////////////////////////////////////////*/
+.section-about-us .content-wrapper, .section-fast-start .content-wrapper, .section-get-a-profession .content-wrapper, .section-partners .content-wrapper, .section-training-program .content-wrapper, .section-teachers .content-wrapper{
+  padding: 100px 0px 100px 0px;
+  margin: 0 auto;
+}
+.our-task-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 636px;
+  height: auto;
+  color: white;
+}
+.our-task-information p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-top: 45px;
+  line-height: 25px;
+}
+/*/////////////////////////////////////////////////////////////////////////*/
+.fast-start{
+  display: flex;
+  flex-direction: column;
+}
+.fast-start-logo-wrapper{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.fast-start-logo-wrapper h2{
+  margin-left: 51px;
+  align-items: center;
+}
+.fast-start-top-information{
+  margin-top: 50px;
+}
+.pace{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 80px;
+}
+.pace div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pace p{
+  margin-top: 35px;
+}
+.color-block1, .color-block3{
+  width: 324px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+.color-block2, .color-block4{
+  width: 324px;
+  background: linear-gradient(94.26deg, #7C6AFA 9.51%, #C89AFC 90.23%);
+}
+.color-block1{
+  height: 80px;
+}
+.color-block2{
+  height: 60px;
+}
+.color-block3{
+  height: 30px;
+}
+.color-block4{
+  height: 10px;
+}
+/*/////////////////////////////////////////////////////////////*/
+.profession-now{
+  align-items: center;
+}
+.priorities-wrapper{
+  margin-top: 120px;
+}
+.priorities{
+  text-align: center;
+}
+.title-priorities{
+  margin-top: 66px;
+}
+.priorities .title-priorities{
+  color: white;
+  font-size: 24px;
+  font-family: "Roboto";
+  line-height: 33px;
+}
+.priorities p{
+  margin-top: 30px;
+}
+.wrapper-msi-logo{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 89px;
+}
+.msi-block{
+  width: 25%;
+  height: 150px;
+}
+.fast-start h2, .partners h2, .your-teachers-logo-wrapper h2{
+  margin-left: 51px;
+  align-items: center;
+}
+.partners-logo-wrapper img{
+  width: 78px;
+  height: 78px;
+}
+.fast-start-logo-wrapper, .partners-logo-wrapper, .your-teachers-logo-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/*/////////////////////////////////////////////////////////////*/
+.training-program p{
+  text-align: center;
+  margin-top: 30px;
+}
+.training-program h2{
+  margin-top: 76px;
+}
+.line-gradient{
+  height: 700px;
+  width: 6px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  position: relative;
+}
+.line1, .line2, .line3, .line4, .line5, .line6, .line7{
+  position: absolute;
+  border: 1px solid #4C4C4C;
+  width: 40px;
+}
+.line1, .line2, .line3{
+  left: 6px;
+}
+.line4, .line5, .line6, .line7{
+  right: 6px;
+}
+.line1{
+  top: 130px;
+}
+.line2{
+  top: 320px;
+}
+.line3{
+  top: 510px;
+}
+.line4{
+  top: 50px;
+}
+.line5{
+  top: 230px;
+}
+.line6{
+  top: 420px;
+}
+.line7{
+  top: 620px;
+}
+.program-week1{
+  margin-right: 60px;
+}
+.program-week1 p, .program-week1 h6{
+  text-align: right;
+}
+.wrapper-block-line{
+  margin-top: 95px;
+}
+.program-week2{
+  margin-left: 60px;
+}
+.program-week2 p, .program-week2 h6{
+  text-align: left;
+}
+.wrapper-line-gradient{
+  width: calc(100%-172px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+}
+.program-week1 .wrapper-block-line:first-child{
+  margin-top: 0px;
+}
+.program-week2 .wrapper-block-line:first-child{
+  margin-top: 80px;
+}
+.wrapper-block-line p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: white;
+}
+h6{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: #787878;
+}
+/*////////////////////////////////////////////////////////*/
+.teachers{
+  margin: 0 auto;
+  margin-top: 113px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.teachers div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teachers div h5{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: white;
+  margin-top: 40px;
+}
+.teachers div p{
+  margin-top: 15px;
+}
+.teachers div a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

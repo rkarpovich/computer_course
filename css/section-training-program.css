@@ -1,0 +1,442 @@
+@media all and (min-width: 320px) {
+  .section-training-program .content-wrapper{
+    width: 100%;
+    padding: 40px 20px 40px 20px;
+    box-sizing: border-box;
+  }
+  .training-program p{
+    margin-top: 15px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .training-program h2{
+    margin-top: 1px;
+    margin-left: 14px;
+    font-size: 17px;
+  }
+  .training-program-logo-wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+  .training-program img{
+    width: 18px;
+    height: 18px;
+  }
+  .line-gradient{
+    height: 350px;
+    width: 1px;
+  }
+  .line1, .line2, .line3, .line4, .line5, .line6, .line7{
+    width: 20px;
+  }
+  .line1, .line2, .line3{
+    left: 1px;
+  }
+  .line4, .line5, .line6, .line7{
+    right: 1px;
+  }
+  .line1{
+    top: 54px;
+  }
+  .line2{
+    top: 140px;
+  }
+  .line3{
+    top: 225px;
+  }
+  .line4{
+    top: 33px;
+  }
+  .line5{
+    top: 118px;
+  }
+  .line6{
+    top: 205px;
+  }
+  .line7{
+    top: 290px;
+  }
+  .program-week1{
+    margin-right: 34px;
+  }
+  .wrapper-block-line{
+    margin-top: 35px;
+  }
+  .program-week2{
+    margin-left: 34px;
+    margin-top: 20px;
+  }
+  .wrapper-line-gradient{
+    width: calc(100%-18px);
+    margin-top: 38px;
+  }
+  .program-week2 .wrapper-block-line:first-child{
+    margin-top: 18px;
+  }
+  .wrapper-block-line p{
+    font-size: 8px;
+  }
+  h6{
+    font-size: 6px;
+    margin-top: 30px;
+  }
+  }
+  @media all and (min-width: 480px) {
+    .section-training-program .content-wrapper{
+      padding: 60px 30px 60px 30px;
+    }
+    .training-program p{
+      margin-top: 15px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .training-program h2{
+      margin-top: 1px;
+      font-size: 19;
+    }
+    .training-program img{
+      width: 25px;
+      height: 25px;
+    }
+    .line-gradient{
+      height: 430px;
+    }
+    .line1, .line2, .line3, .line4, .line5, .line6, .line7{
+      width: 40px;
+    }
+    .line2{
+      top: 165px;
+    }
+    .line3{
+      top: 280px;
+    }
+    .line5{
+      top: 145px;
+    }
+    .line6{
+      top: 255px;
+    }
+    .line7{
+      top: 370px;
+    }
+    .program-week1{
+      margin-right: 54px;
+    }
+    .wrapper-block-line{
+      margin-top: 55px;
+    }
+    .program-week2{
+      margin-left: 54px;
+      margin-top: 20px;
+    }
+    .program-week2 .wrapper-block-line:first-child{
+      margin-top: 18px;
+    }
+    .wrapper-block-line p{
+      font-size: 10px;
+    }
+    h6{
+      font-size: 10px;
+      margin-top: 30px;
+    }
+    .wrapper-line-gradient{
+      width: calc(100%-36px);
+      margin-top: 48px;
+    }
+  }
+  @media all and (min-width: 640px) {
+    .training-program p{
+      margin-top: 30px;
+      font-size: 11px;
+      line-height: 15px;
+    }
+    .training-program h2{
+      font-size: 22px;
+    }
+    .training-program img{
+      width: 28px;
+      height: 28px;
+    }
+    .line-gradient{
+      height: 425px;
+    }
+    .line1, .line2, .line3, .line4, .line5, .line6, .line7{
+      width: 45px;
+    }
+    .line1{
+      top: 55px;
+    }
+    .line2{
+      top: 165px;
+    }
+    .line3{
+      top: 270px;
+    }
+    .line4{
+      top: 35px;
+    }
+    .line5{
+      top: 147px;
+    }
+    .line6{
+      top: 250px;
+    }
+    .line7{
+      top: 360px;
+    }
+    .program-week1{
+      margin-right: 60px;
+    }
+    .wrapper-block-line{
+      margin-top: 45px;
+    }
+    .program-week2{
+      margin-left: 60px;
+    }
+    .wrapper-line-gradient{
+      width: calc(100%-54px);
+      margin-top: 50px;
+    }
+    .program-week2 .wrapper-block-line:first-child{
+      margin-top: 20px;
+    }
+    .wrapper-block-line p{
+      font-size: 11px;
+      margin-top: 20px;
+    }
+    h6{
+      font-size: 13px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .training-program img{
+      width: 30px;
+      height: 30px;
+    }
+    .wrapper-block-line p{
+      font-size: 12px;
+    }
+    h6{
+      font-size: 9px;
+    }
+    .wrapper-line-gradient{
+      width: calc(100%-54px);
+      margin: 26px 0px 26px 0px;
+    }
+    .line1{
+      top: 55px;
+    }
+    .line2{
+      top: 158px;
+    }
+    .line3{
+      top: 260px;
+    }
+    .line5{
+      top: 137px;
+    }
+    .line6{
+      top: 240px;
+    }
+    .line7{
+      top: 345px;
+    }
+  }
+  @media all and (min-width: 980px) {
+    .training-program p{
+      margin-top: 40px;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .training-program h2{
+      font-size: 38px;
+    }
+    .training-program img{
+      width: 35px;
+      height: 35px;
+    }
+    .line-gradient{
+      height: 490px;
+      width: 2px;
+    }
+    .line1, .line2, .line3, .line4, .line5, .line6, .line7{
+      width: 40px;
+    }
+    .line1, .line2, .line3{
+      left: 2px;
+    }
+    .line4, .line5, .line6, .line7{
+      right: 2px;
+    }
+    .line1{
+      top: 57px;
+    }
+    .line2{
+      top: 178px;
+    }
+    .line3{
+      top: 292px;
+    }
+    .line4{
+      top: 39px;
+    }
+    .line5{
+      top: 154px;
+    }
+    .line6{
+      top: 275px;
+    }
+    .line7{
+      top: 390px;
+    }
+    .program-week1{
+      margin-right: 60px;
+    }
+    .wrapper-block-line{
+      margin-top: 13px;
+    }
+    .program-week2{
+      margin-left: 60px;
+    }
+    .wrapper-line-gradient{
+      width: calc(100%-72px);
+      margin: 35px 0px 35px 0px;
+    }
+    .program-week2 .wrapper-block-line:first-child{
+      margin-top: 17px;
+    }
+    .wrapper-block-line p{
+      font-size: 14px;
+      margin-top: 40px;
+    }
+    h6{
+      font-size: 16px;
+    }
+  }
+  @media all and (min-width: 1024px) {
+    .section-training-program .content-wrapper{
+      padding: 100px 150px 60px 150px;
+    }
+    .training-program h2{
+      margin-left: 19px;
+    }
+    .training-program p{
+      margin-top: 39px;
+      font-size: 14px;
+      line-height: 19px;
+    }
+    .line-gradient{
+      height: 600px;
+    }
+    .line1, .line2, .line3, .line4, .line5, .line6, .line7{
+      width: 50px;
+    }
+    .line1{
+      top: 65px;
+    }
+    .line2{
+      top: 222px;
+    }
+    .line3{
+      top: 380px;
+    }
+    .line4{
+      top: 40px;
+    }
+    .line5{
+      top: 191px;
+    }
+    .line6{
+      top: 350px;
+    }
+    .line7{
+      top: 505px;
+    }
+    .program-week1{
+      margin-right: 70px;
+    }
+    .wrapper-block-line{
+      margin-top: 63px;
+    }
+    .program-week2{
+      margin-left: 70px;
+    }
+    .program-week2 .wrapper-block-line:first-child{
+      margin-top: 37px;
+    }
+    .wrapper-block-line p{
+      font-size: 14px;
+    }
+    h6{
+      font-size: 16px;
+    }
+  }
+  @media all and (min-width: 1280px) {
+    .section-training-program .content-wrapper{
+      padding: 100px 200px 60px 200px;
+    }
+    .training-program p{
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+    .training-program img{
+      width: 40px;
+      height: 40px;
+    }
+    .line-gradient{
+      margin-top: 50px;
+      height: 730px;
+      width: 3px;
+    }
+    .line1{
+      top: 95px;
+    }
+    .line2{
+      top: 282px;
+    }
+    .line3{
+      top: 472px;
+    }
+    .line4{
+      top: 46px;
+    }
+    .line5{
+      top: 233px;
+    }
+    .line6{
+      top: 410px;
+    }
+    .line7{
+      top: 610px;
+    }
+    .program-week1{
+      margin-right: 80px;
+    }
+    .wrapper-block-line{
+      margin-top: 18px;
+    }
+    .program-week2{
+      margin-left: 80px;
+      margin-top: 50px;
+    }
+    .program-week2 .wrapper-block-line:first-child{
+      margin-top: 47px;
+    }
+    .wrapper-block-line p{
+      font-size: 18px;
+    }
+    h6{
+      font-size: 14px;
+      margin-top: 90px;
+    }
+  }
+  @media all and (min-width: 1600px) {
+    .section-training-program .content-wrapper{
+      padding: 200px 300px 60px 300px;
+    }
+    
+  }
+  @media all and (min-width: 1920px) {
+    
+  }

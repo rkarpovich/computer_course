@@ -1,0 +1,326 @@
+@media all and (min-width: 320px) {
+h2{
+    font-size: 17px;
+  }
+.teachers{
+  flex-direction: column;
+  margin-top: 40px;
+}
+.teachers div:nth-child(1){
+  margin-top: 0px;
+}
+.teachers div{
+  margin-top: 50px;
+}
+.your-teachers-logo-wrapper{
+  justify-content: center;
+}
+.your-teachers-logo-wrapper h2{
+  margin-left: 11px;
+}
+.your-teachers-logo-wrapper img{
+  width: 24px;
+  height: 24px;
+}
+.section-teachers .content-wrapper{
+  width: 100%;
+  padding: 50px 20px 50px 20px;
+  box-sizing: border-box;
+}
+.teachers div p{
+  font-size: 10px;
+  margin-top: 15px;
+}
+.teachers div img{
+  width: 140px;
+  height: 140px;
+}
+.teachers div h5{
+  font-size: 14px;
+  margin-top: 30px;
+}
+.teachers div a{
+  font-size: 9px;
+  padding: 5px 12px;
+  border-radius: 25px;
+  margin: 22px 0px 22px 0px;
+}
+}
+@media all and (min-width: 480px) {
+  .section-teachers .content-wrapper{
+    padding: 50px 30px 50px 30px;
+  }
+  .teachers{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+h2{
+    font-size: 19px;
+  }
+  .teachers div{
+    margin-top: 0px;
+  }
+.your-teachers-logo-wrapper h2{
+  margin-left: 19px;
+}
+.your-teachers-logo-wrapper img{
+  width: 25px;
+  height: 25px;
+}
+.teachers div p{
+  font-size: 8px;
+}
+.teachers div img{
+  width: 110px;
+  height: 110px;
+}
+.teachers div h5{
+  font-size: 14px;
+  margin-top: 34px;
+}
+.teachers div p{
+  margin-top: 10px;
+}
+.teachers div a{
+  font-size: 12px;
+  padding: 5px 14px;
+  margin: 20px 0px 15px 0px;
+}
+}
+@media all and (min-width: 640px) {
+h2{
+    font-size: 22px;
+  }
+.teachers{
+  margin-top: 40px;
+}
+.your-teachers-logo-wrapper h2{
+  margin-left: 22px;
+}
+.your-teachers-logo-wrapper img{
+  width: 28px;
+  height: 28px;
+}
+.teachers div p{
+  font-size: 10px;
+}
+.teachers div img{
+  width: 130px;
+  height: 130px;
+}
+.teachers div h5{
+  padding-top: 13px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.teachers div p{
+  margin-top: 12px;
+}
+.teachers div a{
+  font-size: 13px;
+  padding: 7px 16px;
+  margin: 17px 0px 17px 0px;
+}
+}
+@media all and (min-width: 768px) {
+  .section-teachers .content-wrapper{
+    padding: 50px 100px 50px 100px;
+  }
+h2{
+  font-size: 22px;
+  }
+.teachers{
+  margin-top: 50px;
+  flex-direction: row;
+}
+.your-teachers-logo-wrapper h2{
+  margin-left: 24px;
+}
+.your-teachers-logo-wrapper img{
+  width: 30px;
+  height: 30px;
+}
+.teachers div p{
+  font-size: 12px;
+}
+.teachers div img{
+  width: 120px;
+  height: 120px;
+}
+.teachers div h5{
+  padding-top: 15px;
+  font-size: 16px;
+  margin-top: 18px;
+}
+.teachers div p{
+  margin-top: 14px;
+}
+.teachers div a{
+  font-size: 14px;
+  padding: 8px 17px;
+  margin: 18px 0px 18px 0px;
+}
+}
+@media all and (min-width: 980px) {
+  .section-teachers .content-wrapper{
+    padding: 50px 100px 50px 100px;
+  }
+  h2{
+    font-size: 38px;
+    }
+  .teachers{
+    margin-top: 60px;
+  }
+  .your-teachers-logo-wrapper h2{
+    margin-left: 26px;
+  }
+  .your-teachers-logo-wrapper img{
+    width: 35px;
+    height: 35px;
+  }
+  .teachers div p{
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .teachers div img{
+    width: 170px;
+    height: 170px;
+  }
+  .teachers div h5{
+    padding-top: 18px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .teachers div a{
+    font-size: 16px;
+    padding: 9px 19px;
+    margin: 20px 0px 20px 0px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .section-teachers .content-wrapper{
+    padding: 50px 150px 50px 150px;
+  }
+  .teachers{
+    margin-top: 70px;
+  }
+  .teachers div p{
+    font-size: 17x;
+  }
+  .teachers div img{
+    width: 170px;
+    height: 170px;
+  }
+  .teachers div h5{
+    padding-top: 20px;
+    font-size: 22px;
+    margin-top: 35px;
+  }
+  .teachers div p{
+    margin-top: 25px;
+  }
+  .teachers div a{
+    padding: 10px 15px;
+    margin: 22px 0px 22px 0px;
+  }
+}
+@media all and (min-width: 1280px) {
+  .section-teachers .content-wrapper{
+    padding: 50px 200px 50px 200px;
+  }
+  .teachers{
+    margin-top: 100px;
+  }
+  .your-teachers-logo-wrapper h2{
+    margin-left: 28px;
+  }
+  .your-teachers-logo-wrapper img{
+    width: 40px;
+    height: 40px;
+  }
+  .teachers div p{
+    font-size: 17px;
+  }
+  .teachers div img{
+    width: 190px;
+    height: 190px;
+  }
+  .teachers div h5{
+    padding-top: 20px;
+    font-size: 24px;
+    margin-top: 24px;
+  }
+  .teachers div p{
+    margin-top: 40px;
+  }
+  .teachers div a{
+    padding: 11px 22px;
+    margin: 23px 0px 23px 0px;
+  }
+}
+@media all and (min-width: 1600px) {
+  .section-teachers .content-wrapper{
+    padding: 150px 300px 50px 300px;
+  }
+  h2{
+    font-size: 40;
+  }
+  .teachers{
+    margin-top: 100px;
+  }
+  .your-teachers-logo-wrapper h2{
+    margin-left: 30px;
+  }
+  .your-teachers-logo-wrapper img{
+    width: 60px;
+    height: 60px;
+  }
+  .teachers div p{
+    font-size: 19px;
+  }
+  .teachers div img{
+    width: 180px;
+    height: 180px;
+  }
+  .teachers div h5{
+    padding-top: 23px;
+    font-size: 26px;
+    margin-top: 26px;
+  }
+  .teachers div p{
+    margin-top: 22px;
+  }
+  .teachers div a{
+    padding: 12px 28px;
+    margin: 25px 0px 25px 0px;
+  }
+}
+@media all and (min-width: 1920px) {
+  h2{
+    font-size: 48px;
+  }
+  .teachers{
+    margin-top: 113px;
+  }
+  .your-teachers-logo-wrapper h2{
+    margin-left: 40px;
+  }
+  .your-teachers-logo-wrapper img{
+    width: 70px;
+    height: 70px;
+  }
+  .teachers div p{
+    margin-top: 17px;
+  }
+  .teachers div img{
+    width: 200px;
+    height: 200px;
+  }
+  .teachers div h5{
+    margin-top: 40px;
+  }
+  .teachers div a{
+    padding: 12px 30px;
+  }
+}

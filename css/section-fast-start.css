@@ -1,0 +1,341 @@
+@media all and (min-width: 320px) {
+  .section-fast-start .content-wrapper{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .fast-start-logo-wrapper img{
+    width: 18px;
+    height: 18px;
+  }
+  .fast-start p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .fast-start h2{
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .fast-start-logo-wrapper{
+    justify-content: center;
+  }
+  .fast-start-top-information{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .pace{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pace div{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pace div h3{
+    width: auto;
+    max-width: 40px;
+    width: 70px;
+    text-align: end;
+    font-size: 14px;
+  }
+  .pace p{
+    margin-top: 5px;
+    width: 50%;
+    text-align: justify;
+  }
+  .color-block1, .color-block3{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    width: 280px;
+  }
+  .color-block2, .color-block4{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  }
+  .color-block1{
+    width: 20%;
+    height: 100px;
+  }
+  .color-block2{
+    width: 15%;
+    height: 100px;
+  }
+  .color-block3{
+    width: 10%;
+    height: 100px;
+  }
+  .color-block4{
+    width: 2%;
+    height: 100px;
+  }
+  }
+  @media all and (min-width: 480px) {
+    .section-fast-start .content-wrapper{
+      padding: 20px 30px 20px 30px;
+    }
+    .fast-start-logo-wrapper img{
+      width: 22px;
+      height: 22x;
+    }
+    .fast-start h2{
+      margin-left: 14px;
+      font-size: 19px;
+    }
+    .pace{
+      margin-top: 50px
+    }
+    .pace div h3{
+      font-size: 17px;
+      width: auto;
+      max-width: 100px;
+      width: 100px;
+    }
+    .fast-start p{
+      font-size: 11px;
+      line-height: 16px;
+    }
+    .pace p{
+      font-size: 11px;
+      line-height: 16px;
+      margin-top: 5px;
+      width: 50%;
+      text-align: justify;
+    }
+  }
+  @media all and (min-width: 640px) {
+    .fast-start-logo-wrapper img{
+      width: 22px;
+      height: 22px;
+    }
+    .pace{
+      margin-top: 40px;
+    }
+    .fast-start h2{
+      font-size: 22px;
+    }
+    .pace div h3{
+      font-size: 22px;
+      max-width: 140px;
+      width: 140px;
+    }
+    .pace p{
+      margin-top: 5px;
+      width: 50%;
+      text-align: center;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .section-fast-start .content-wrapper{
+      padding: 20px 100px 20px 100px;
+    }
+    .fast-start-logo-wrapper img{
+      width: 30px;
+      height: 30px;
+    }
+    .fast-start{
+      display: flex;
+      flex-direction: column;
+    }
+    .fast-start p{
+      font-size: 11.5px;
+      line-height: 15px;
+      margin-top: 20px;
+    }
+    .fast-start-logo-wrapper h2{
+      margin-left: 21px;
+    }
+    .pace{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 50px;
+    }
+    .pace div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .pace p{
+      width: 100%;
+    }
+    .color-block1, .color-block3{
+      width: 144px;
+      background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    }
+    .color-block2, .color-block4{
+      width: 144px;
+      background: linear-gradient(94.26deg, #7C6AFA 9.51%, #C89AFC 90.23%);
+    }
+    .color-block1{
+      height: 40px;
+    }
+    .color-block2{
+      height: 30px;
+    }
+    .color-block3{
+      height: 20px;
+    }
+    .color-block4{
+      height: 10px;
+    }
+  }
+  @media all and (min-width: 980px) {
+    .section-fast-start .content-wrapper{
+      padding: 20px 100px 20px 100px;
+    }
+    .fast-start-logo-wrapper img{
+      width: 35px;
+      height: 35px;
+    }
+    .fast-start h2{
+      margin-left: 34px;
+      font-size: 38px;
+    }
+    .fast-start p{
+      font-size: 14px;
+      margin-top: 40px;
+      margin-right: 0px;
+      text-align: center;
+    }
+    .color-block1, .color-block3, .color-block2, .color-block4{
+      width: 197px;
+    }
+  }
+  @media all and (min-width: 1024px) {
+    .section-fast-start .content-wrapper{
+      padding: 80px 150px 20px 150px;
+    }
+    .fast-start p{
+      font-size: 14px;
+    }
+    .color-block1, .color-block3{
+      width: 181px;
+    }
+    .color-block2, .color-block4{
+      width: 181px;
+    }
+    .color-block1{
+      height: 50px;
+    }
+    .color-block2{
+      height: 40px;
+    }
+    .color-block3{
+      height: 30px;
+    }
+    .color-block4{
+      height: 10px;
+    }
+  }
+  @media all and (min-width: 1280px) {
+    .section-fast-start .content-wrapper{
+      padding: 100px 200px 20px 200px;
+    }
+    .fast-start-logo-wrapper img{
+      width: 40px;
+      height: 40px;
+    }
+    .fast-start p{
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .pace div h3{
+      font-size: 36px;
+    }
+    .pace{
+      margin-bottom: 50px;
+    }
+    .color-block1, .color-block3{
+      width: 225px;
+    }
+    .color-block2, .color-block4{
+      width: 225px;
+    }
+    .color-block1{
+      height: 80px;
+    }
+    .color-block2{
+      height: 60px;
+    }
+    .color-block3{
+      height: 50px;
+    }
+    .color-block4{
+      height: 20px;
+    }
+  }
+  @media all and (min-width: 1600px) {
+    .section-fast-start .content-wrapper{
+      padding: 200px 300px 20px 300px;
+    }
+    .fast-start h2{
+      margin-left: 38px;
+      font-size: 40px;
+    }
+    .fast-start-logo-wrapper img{
+      width: 60px;
+      height: 60px;
+    }
+    .fast-start p{
+      font-size: 16px;
+      line-height: 15px;
+    
+    }
+    .pace div h3{
+      font-size: 48px;
+    }
+    .color-block1, .color-block3{
+      width: 250px;
+    }
+    .color-block2, .color-block4{
+      width: 250px;
+    }
+    .color-block1{
+      height: 80px;
+    }
+    .color-block2{
+      height: 60px;
+    }
+    .color-block3{
+      height: 50px;
+    }
+    .color-block4{
+      height: 20px;
+    }
+  }
+  @media all and (min-width: 1920px) {
+    .fast-start h2{
+      margin-left: 45px;
+      font-size: 48px;
+    }
+    .fast-start-logo-wrapper img{
+      width: 70px;
+      height: 70px;
+    }
+    .fast-start p{
+      font-size: 19.5px;
+      line-height: 25px;
+    
+    }
+    .pace div h3{
+      font-size: 45px;
+    }
+    .color-block1, .color-block3{
+      width: 335px;
+    }
+    .color-block2, .color-block4{
+      width: 335px;
+    }
+    .color-block1{
+      height: 100px;
+    }
+    .color-block2{
+      height: 80px;
+    }
+    .color-block3{
+      height: 60px;
+    }
+    .color-block4{
+      height: 20px;
+    }
+  }
